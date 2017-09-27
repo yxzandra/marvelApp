@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/recyclerContainer"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="@dimen/padding_textView"
+        android:id="@+id/spinnerCantComic"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerComic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_textView"
+        />
+       <Button
+           android:layout_width="@dimen/whidth_btn"
+           android:layout_height="@dimen/height_btn"
+           android:id="@+id/btnShowMore"
+           android:background="@drawable/show_more"
+           android:layout_gravity="end"
+           android:layout_margin="@dimen/text_size_title_favourite"
+           android:text="@string/Btnsharemore"
+           android:textColor="@color/icons"
+           android:textSize="@dimen/text_size_btn"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@color/colorPrimary"
+           android:text="@string/favoriteHeader"
+           android:textAlignment="center"
+           android:padding="@dimen/padding_textView"
+           android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+           android:textColor="@color/icons"
+           android:id="@+id/faouriteHeader"/>
+
+       <android.support.v7.widget.RecyclerView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:background="@color/colorPrimary"
+           android:id="@+id/recyclerFavourite"
+           android:padding="@dimen/padding_textView"/>
+       <Button
+
+           android:layout_width="@dimen/whidth_btn"
+           android:layout_height="@dimen/height_btn"
+           android:background="@drawable/read_more"
+           android:layout_gravity="center_horizontal"
+           android:layout_margin="@dimen/padding_textView"
+           android:text="@string/BtnreadMore"
+           android:textColor="@color/icons"
+           android:textSize="@dimen/text_size_btn"
+           android:id="@+id/btnReadMore"/>
+
+   </LinearLayout>
+    </ScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>

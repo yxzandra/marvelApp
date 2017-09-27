@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nextdots.marvelapp.Fragments.DetailsItemFragment"
+    android:background="@color/icons"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_image_details"
+            app:srcCompat="@drawable/ic_logo_splash"
+            android:id="@+id/imageComic"
+            android:background="@drawable/sombra_vistadetallaco"
+            android:scaleType="fitCenter"
+            android:clickable="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding_text_title_details"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:id="@+id/textTitleComic"
+            android:textColor="@color/icons"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal|bottom"
+            />
+    </FrameLayout>
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textBodyComic"
+        android:scrollbars = "vertical"
+        android:padding="@dimen/activity_horizontal_margin"/>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nextdots.marvelapp.Fragments.AllComicFragment"
+    android:background="@color/icons">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerComicAll"
+        android:background="@drawable/back_app"
+        android:padding="@dimen/activity_horizontal_margin"/>
+
+    <include
+        layout="@layout/generic_loading_container"
+        android:id="@+id/genericLoading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</FrameLayout>

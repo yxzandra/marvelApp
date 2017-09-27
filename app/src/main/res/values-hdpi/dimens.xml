@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="whidth_btn">60dp</dimen>
+    <dimen name="height_btn">16dp</dimen>
+    <dimen name="text_size_btn">7sp</dimen>
+    <dimen name="text_size_title_favourite">9sp</dimen>
+    <dimen name="padding_textView">5dp</dimen>
+    <dimen name="padding_star">5dp</dimen>
+    <dimen name="padding_text_title_details">20dp</dimen>
+    <dimen name="height_image_details">250dp</dimen>
+    <dimen name="CornerRadiusCardView">2dp</dimen>
+    <dimen name="ElevationCardView">5dp</dimen>
+
+    <dimen name="ItemComicwidthCardView">105dp</dimen>
+    <dimen name="ItemComicheightCardView">155dp</dimen>
+    <dimen name="AllComicwidthCardView">135dp</dimen>
+    <dimen name="AllComicheightCardView">185dp</dimen>
+    <dimen name="FavouriteComicwidthCardView">95dp</dimen>
+    <dimen name="FavouriteComicheightCardView">135dp</dimen>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/FavouriteComicwidthCardView"
+    android:layout_height="@dimen/FavouriteComicheightCardView"
+    card_view:cardCornerRadius="@dimen/CornerRadiusCardView"
+    card_view:cardElevation="@dimen/ElevationCardView"
+    android:layout_margin="@dimen/CornerRadiusCardView"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fondoimage"
+        android:scaleType="fitXY"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/sombra_comicsmini"
+        android:id="@+id/gridCardview">
+
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textNameFile"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size_title_favourite"
+            android:layout_gravity="center_horizontal|bottom"
+            android:padding="@dimen/padding_textView"
+            android:textColor="@color/icons"
+            android:gravity="bottom" />
+    </FrameLayout>
+
+</android.support.v7.widget.CardView>

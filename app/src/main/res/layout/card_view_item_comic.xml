@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/ItemComicwidthCardView"
+    android:layout_height="@dimen/ItemComicheightCardView"
+    card_view:cardCornerRadius="@dimen/CornerRadiusCardView"
+    card_view:cardElevation="@dimen/ElevationCardView"
+    android:padding="@dimen/height_btn"
+    card_view:cardBackgroundColor="@null"
+    android:layout_margin="@dimen/CornerRadiusCardView"
+    android:layout_gravity="center"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fondoimage"
+        android:scaleType="fitXY"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/sombra_comicsmini"
+        android:id="@+id/gridCardview"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_star_off"
+            android:id="@+id/imageFavourite"
+            android:layout_margin="@dimen/padding_star"
+            android:layout_gravity="end"/>
+
+        <Button
+            android:layout_width="@dimen/whidth_btn"
+            android:layout_height="@dimen/height_btn"
+            android:background="@drawable/read_more"
+            android:id="@+id/btnShareMore"
+            android:layout_gravity="center_horizontal|bottom"
+            android:text="@string/Btnsharemore"
+            android:textSize="@dimen/text_size_btn"
+            android:textColor="@color/icons"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textNameFile"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal|bottom"
+            android:padding="@dimen/padding_textView"
+            android:textColor="@color/icons"
+            android:gravity="bottom"
+            android:textSize="@dimen/text_size_title_favourite"
+            android:layout_margin="@dimen/activity_vertical_margin"/>
+    </FrameLayout>
+
+</android.support.v7.widget.CardView>

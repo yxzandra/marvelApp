@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MarvelApp</string>
+    <string name="main_activity_button_cargar_30">Cargar 30+</string>
+
+    <string name="URL">http://gateway.marvel.com/v1/public/</string>
+    <string name="private_key">aa879f60b89257f0d4711886a461c65f06ad349d</string>
+    <string name="public_key">2359abf629c50fbfd70cf59e778dabed</string>
+    <string name="title_fragment_loading">Loading Please Wait...</string>
+    <string name="ToolbarTitleAllComic">All Comic</string>
+    <string name="ToolbarTitleAllFavoriteComic">All Favorites Comic</string>
+    <string name="ToolbarTitleComicDetails">Details Comic</string>
+    <string name="FlagAllComic">allComic</string>
+    <string name="FlagComicDetailsAll">comicDetailsAll</string>
+    <string name="FlagComicDetails">comicDetails</string>
+    <string name="FlagDataBase">DataBase</string>
+    <string name="FlagDataBaseAll">DataBaseAll</string>
+    <string name="FlagTypeComicDetailsDataBase">DataBase</string>
+    <string name="FlagComicDetailsNotDataBase">normal</string>
+    <string name="Btnsharemore">Sharemore</string>
+    <string name="BtnreadMore">Read More</string>
+    <string name="FlagAllComicDataBase">AllComicDataBase</string>
+    <string name="favoriteHeader">Favorite</string>
+    <string name="notFavoritesHeader">No favorites</string>
+</resources>

@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nextdots.marvelapp.Fragments.ComicFragment"
+    android:background="@drawable/back_app"
+    android:id="@+id/fragmentComic">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            layout="@layout/generic_recycler_container"
+            android:id="@+id/genericContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            />
+
+        <include
+            layout="@layout/generic_loading_container"
+            android:id="@+id/genericLoading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</LinearLayout>

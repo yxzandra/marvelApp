@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/AllComicwidthCardView"
+    android:layout_height="@dimen/AllComicheightCardView"
+    card_view:cardCornerRadius="@dimen/CornerRadiusCardView"
+    card_view:cardElevation="@dimen/ElevationCardView"
+    android:layout_margin="@dimen/ElevationCardView"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fondoimage"
+        android:scaleType="fitXY"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/sombra_comicsmini"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_star_off"
+            android:id="@+id/imageFavourite"
+            android:layout_margin="@dimen/padding_star"
+            android:layout_gravity="end"
+            android:layout_row="1"
+            android:layout_column="0"/>
+
+        <Button
+            android:layout_width="@dimen/whidth_btn"
+            android:layout_height="@dimen/height_btn"
+            android:background="@drawable/read_more"
+            android:id="@+id/btnShareMore"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/Btnsharemore"
+            android:textSize="@dimen/text_size_btn"
+            android:textColor="@color/icons"
+            android:layout_row="10"
+            android:layout_column="0" />
+
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textNameFile"
+            android:textStyle="bold"
+            android:layout_row="9"
+            android:layout_column="0"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp"
+            android:textColor="@color/icons"
+            android:gravity="bottom" />
+    </GridLayout>
+
+</android.support.v7.widget.CardView>
